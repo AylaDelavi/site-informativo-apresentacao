@@ -646,3 +646,389 @@ body {
     font-size: 20px;
     color: var(--font-cor-branco);
 }
+
+@media (max-width: 768px) {
+    .cabecalho-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .cabecalho-imagem {
+        width: 100%;
+        height: auto;
+        max-height: 300px;
+    }
+
+    .cabecalho-conteudo {
+        max-width: 100%;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .cabecalho-titulo__texto {
+        font-size: 32px;
+        margin-bottom: 20px;
+    }
+
+    .cabecalho-texto {
+        margin-left: 0;
+        font-size: 14px;
+    }
+
+    .curiosidade-titulo__texto {
+        font-size: 32px;
+        padding: 20px;
+        text-align: center;
+    }
+
+    .curiosidade-paragrafos {
+        flex-direction: column;
+        align-items: center;
+        text-align: justify;
+        padding: 0 20px;
+        gap: 20px;
+    }
+
+    .imagem-curiosidade__titulo {
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    .curiosidade-texto {
+        font-size: 14px;
+    }
+
+    .imagem-curiosidade__estatistica {
+        width: 100%;
+        max-width: 500px;
+        padding: 30px 0 20px;
+    }
+
+    .curiosidade-imagem__subtitulo {
+        text-align: center;
+        font-size: 12px;
+    }
+
+
+     .fatores-de-risco__titulo {
+        font-size: 32px;
+        padding: 40px 20px 20px;
+    }
+
+    .fatores-de-risco__listas-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        padding-top: 40px;
+    }
+
+    .fatores-de-risco__lista {
+        width: 90%;
+        max-width: 400px;
+        padding: 20px;
+    }
+
+    .fatores-de-risco__lista__item {
+        font-size: 18px;
+    }
+
+
+     .voce-sabia__titulo {
+        margin-left: 0;
+        text-align: center;
+        font-size: 32px;
+    }
+
+    .voce-sabia__grid {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+    }
+
+    .voce-sabia__coracao,
+    .voce-sabia__qr,
+    .voce-sabia__ilustracao {
+        width: 90%;
+        max-width: 400px;
+        margin: 0;
+    }
+
+    .voce-sabia__qr {
+        margin-left: 0;
+    }
+
+
+    .principais-sintomas {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem 1rem;
+        gap: 30px;
+    }
+
+    .principais-sintomas__container,
+    .principais-sintomas__container1 {
+        width: 100%;
+        max-width: 500px;
+    }
+
+    .principais-sintomas__titulo,
+    .principais-sintomas__titulo-cefaleia {
+        font-size: 32px;
+    }
+
+    .principais-sintomas__texto {
+        font-size: 1rem;
+        padding: 1rem;
+        text-align: justify;
+    }
+
+    .principais-sintomas__imagem-cefaleia {
+        width: 100%;
+        height: auto;
+    }
+
+
+    .principais-sintomas__container-imagem {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+        justify-items: center;
+        padding: 2rem 1rem;
+    }
+
+    .principais-sintomas-imagem {
+        width: 200px;
+    }
+
+    .principais-sintomas-imagem__subtitulo {
+        font-size: 18px;
+        margin-top: 0.5rem;
+    }
+
+
+    .preocupacoes-titulo {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .preocupacoes-imagem {
+    order: 1;
+    width: 80%;
+    margin: 0 auto 20px;
+  }
+
+  .preocupacoes-titulo__texto {
+    order: 2;
+    font-size: 36px;
+    margin: 20px 0;
+  }
+
+  .preocuapcoes-conteudo {
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .preocupacoes-texto {
+    margin: 0 20px;
+    font-size: 18px;
+  }
+
+  .preocupacoes-lista-container {
+    order: 4;
+    padding: 20px 10px;
+  }
+
+  .preocupacoes-lista {
+    padding: 30px;
+    max-width: 90%;
+  }
+
+  .preocupacoes-lista__texto {
+    font-size: 18px;
+  }
+
+
+  .tratamento-conteudo {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+
+  .tratamento-imagem {
+    width: 90%;
+    max-width: 400px;
+  }
+
+  .tratamento-textos {
+    text-align: left;
+    padding: 0 20px;
+  }
+
+  .tratamento-subtitulo {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+
+  .tratamento-lista__texto {
+    font-size: 18px;
+  }
+
+  .tratamento-lista {
+    padding-left: 20px;
+  }
+
+  .tratamento-titulo {
+    font-size: 36px;
+    margin-bottom: 40px;
+  }
+
+
+  .exercicio-fisico-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .exercicio-fisico__titulo {
+    font-size: 36px;
+    padding-bottom: 20px;
+  }
+
+  .exercicio-fisico__texto {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+
+  .exercicio-fisico__imagem {
+    width: 90%;
+    max-width: 400px;
+    margin-top: 30px;
+  }
+
+
+   .exercicio-fisico-hipertensos__grid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .exercicio-fisico-hipertensos__coluna-direita {
+    order: 3; /* imagem depois da lista */
+    padding-top: 30px;
+  }
+
+  .exercicio-fisico-hipertensos__coluna-esquerda {
+    order: 1;
+  }
+
+  .exercicio-fisico__lista {
+    order: 2;
+  }
+
+  .exercicio-fisico-hipertensos__titulo {
+    font-size: 40px;
+  }
+
+  .exercicio-fisico-hipertensos__qrcode {
+    width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .exercicio-fisico-hipertensos__imagem {
+    max-width: 90%;
+    padding-top: 0;
+  }
+
+
+   .influencia-alimentacao-container {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+  }
+
+  .influencia-alimentacao__imagem-esquerda {
+    width: 100%;
+    padding-left: 0;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .influencia-alimentacao__conteudo-esquerda,
+  .influencia-alimentacao__conteudo-direita {
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .influencia-alimentacao__paragrafo-esquerda {
+    padding: 20px 10px;
+    font-size: 16px;
+  }
+
+  .influencia-alimentacao__conteudo-direita-subtitulo {
+    font-size: 40px;
+    padding-top: 40px;
+  }
+
+  .influencia-alimentacao__paragrafo-direita {
+    font-size: 20px;
+    padding: 0 10px;
+  }
+
+  .influencia-alimentacao__imagem-mulherbanana,
+  .influencia-alimentacao__imagem-qrcode,
+  .influencia-alimentacao__imagem-frutas {
+    display: block;
+    margin: 20px auto;
+    padding: 0;
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .influencia-alimentacao__imagem-qrcode {
+    padding-left: 0;
+}
+
+
+.paragrafos-finais {
+    padding: 20px 15px;
+  }
+
+  .paragrafos-finais-container {
+    flex-direction: column;
+    gap: 40px;
+    padding: 0;
+  }
+
+  .paragrafos-finais-conteudo {
+    max-width: 100%;
+    padding: 20px 10px;
+    text-align: left; /* geralmente é melhor leitura no celular */
+  }
+
+  .paragrafos-finais-texto {
+    font-size: 16px;
+    padding-bottom: 16px;
+    text-align: left;
+  }
+
+
+  .participantes-container {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+
+  .rodape-conteudo {
+    display: flex;
+    flex-direction: column;
+  }
+}
