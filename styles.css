@@ -611,3 +611,38 @@ body {
     font-size: 55px;
     margin-bottom: 40px;
 }
+
+.participantes {
+    background-color: var(--font-cor-roxo-claro);
+    padding: 100px 60px;
+}
+
+.participantes-titulo {
+    text-align: center;
+    font-size: 55px;
+    font-weight: 700;
+    color: var(--font-cor-branco);
+    margin-bottom: 40px;
+}
+
+.participantes-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+
+.participantes-informacoes {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.participantes-informacoes-nome {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--font-cor-branco);
+}
+
+.participantes-informacoes-numero {
+    font-size: 20px;
+    color: var(--font-cor-branco);
+}
